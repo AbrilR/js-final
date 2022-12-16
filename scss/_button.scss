@@ -1,0 +1,26 @@
+@import 'variables';
+
+#questionButton {
+    font-family: $font;
+    font-size: 30px;
+    font-size: 1.875em;
+    color: #f8f8f8;
+    background-color: $pink;
+    border-radius: 5px;
+    border: none;
+    padding: .5em 1em;
+    width: 80%;
+    max-width: 10em;
+    margin-top: 1em;
+}
+.answer {
+    color: #222;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 37%;
+    left: 46%;
+    width: 11%;
+    font-size: 100%;
+    font-family: 'Erica One', cursive;
+}
